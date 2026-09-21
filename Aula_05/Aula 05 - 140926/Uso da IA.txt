@@ -1,0 +1,3 @@
+Utilizamos IA para saber como fazer arredondamento
+E para descobrir o motivo do if else não estar exibindo o resultado esperado
+Para descobrir o motivo dos resultados estarem zerados
