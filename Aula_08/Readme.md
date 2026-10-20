@@ -1,7 +1,7 @@
 Exercícios:
 
 1- Desenvolva um programa em C que:
- 1.leia o salário de 4 funcionários;
+ 1. leia o salário de 4 funcionários;
  2. armazene os valores em um vetor;
  3. exiba os salários na mesma ordem em que foram digitados.
 
