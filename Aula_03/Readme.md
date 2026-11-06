@@ -1,3 +1,5 @@
+Exercícios:
+
 1- Desenvolva um programa em C que: (i) leia a quantidade de produtos recebidos no turno da
 manhã e a quantidade de produtos recebidos no turno da tarde; Ii) calcule o total de produtos
 recebidos; (iii) exiba o resultado.
