@@ -11,7 +11,7 @@ O foco principal deste repositório é documentar minha evolução na construç�
 
 ## [Aula 2](Aula_02): Fundamentos de C, Entrada/Saída e Operadores Matemáticos
 
-**Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:**
+Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:
 
 **Estrutura Básica e Bibliotecas:** Introdução das bibliotecas padrão stdio.h (para entrada e saída de dados) e locale.h (junto com a função setlocale para habilitar a acentuação correta em português no terminal).
 
