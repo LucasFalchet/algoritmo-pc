@@ -11,7 +11,7 @@ O foco principal deste repositório é documentar minha evolução na construç�
 
 ## [Aula 2](Aula_02): Fundamentos de C, Entrada/Saída e Operadores Matemáticos
 <details>
-<summary>Conteúdos apresentados nesta aula</summary>
+<summary>Conceitos abordados na Aula 2</summary>
 <br> 
 
 Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:
@@ -27,7 +27,11 @@ Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a co
 **Conversão de Tipos (Type Casting):** Uso da conversão explícita de tipos, como (float), para garantir a precisão decimal correta durante divisões em cálculos matemáticos.
 </details>
 
+
 ## [Aula 3](Aula_03): Expressões Matemáticas Complexas e Biblioteca
+<details>
+<summary>Conceitos abordados na Aula 3</summary>
+<br>
 
 Nesta aula, houve um aprofundamento significativo na complexidade dos cálculos, com a introdução de novas bibliotecas e funções em C para resolver problemas práticos de geometria, física e negócios. Com base nos exercícios, os principais conceitos explorados foram:
 
@@ -38,10 +42,14 @@ Nesta aula, houve um aprofundamento significativo na complexidade dos cálculos,
 **Introdução à Biblioteca <math.h>:** Inclusão e utilização da biblioteca matemática padrão da linguagem C para lidar com fórmulas mais avançadas.
 
 **Funções de Exponenciação e Raiz:** Utilização da função pow() para elevar valores ao quadrado, como no cálculo do IMC e em fórmulas espaciais, e da função sqrt() para extrair a raiz quadrada no cálculo da distância entre dois pontos.
+</details>
 
 
 ## [Aula 4](Aula_04): Estruturas de Controle Condicional
-
+<details>
+<summary>Conceitos abordados na Aula 4</summary>
+<br>
+  
 Esta aula focou-se na introdução e aplicação da lógica condicional na linguagem C, permitindo que os programas tomem decisões com base em diferentes cenários e entradas do utilizador. Com base nos exercícios desenvolvidos, os principais conceitos explorados foram:
 
 **Estruturas Condicionais Simples e Compostas:** Utilização de if, else if e else para validar condições matemáticas, como a verificação do valor de delta para o cálculo das raízes de uma equação do 2º grau.
@@ -49,9 +57,13 @@ Esta aula focou-se na introdução e aplicação da lógica condicional na lingu
 **Estrutura de Seleção Múltipla (switch/case):** Implementação de menus de seleção utilizando a estrutura switch/case e o comando break.
 
 **Manipulação de Caracteres (char):** Leitura de variáveis do tipo caractere para tomada de decisão. Inclusão da biblioteca <ctype.h> e utilização da função toupper() para converter a entrada do utilizador automaticamente para maiúscula
+</details>
 
 
 ## [Aula 5](Aula_05): Projeto 1 - Sistema de Gestão "Arena Tech"
+<details>
+<summary>Detalhes do Projeto 1 - Arena Tech</summary>
+<br>
 
 Nesta aula, o foco foi a consolidação dos conhecimentos através de um projeto prático que unifica os conceitos de variáveis, cálculos matemáticos e estruturas condicionais. O código desenvolvido simula o planejamento logístico, financeiro e de infraestrutura para um evento de e-sports chamado "Arena Tech". Os principais conceitos aplicados foram:
 
@@ -62,9 +74,13 @@ Nesta aula, o foco foi a consolidação dos conhecimentos através de um projeto
 **Sistema de Diagnóstico e Decisão:** Construção de uma árvore de decisão baseada em if/else if/else que cruza os dados de infraestrutura, margem de segurança do orçamento (limite de 5%) e classificação de consumo de energia.
 
 **Lógica Condicional Avançada:** Utilização intensiva de operadores lógicos relacionais (>=, <, ==) combinados com os operadores lógicos && (AND) e || (OR) para avaliar múltiplos cenários simultaneamente.
+</details>
 
 
 ## [Aula 6](Aula_06): Estruturas de Repetição
+<details>
+<summary>Conceitos abordados na Aula 6</summary>
+<br>
 
 Esta aula marcou a introdução aos laços de repetição (ciclos), essenciais para executar blocos de código múltiplas vezes de forma automatizada. Através dos exercícios, foram exploradas diferentes formas de iterar dados, validar entradas e acumular valores de forma contínua. Os principais conceitos aplicados foram:
 
@@ -73,10 +89,14 @@ Esta aula marcou a introdução aos laços de repetição (ciclos), essenciais p
 **Ciclos do-while e Validação de Dados:** Implementação de repetições que garantem a execução do bloco de código pelo menos uma vez antes de testar a condição.
 
 **Ciclos Infinitos e Interrupção (break):** Criação de um sistema de autenticação (login) apoiado num ciclo infinito while(1). A estrutura recorreu a um contador decrescente (tentativas--) para gerir a quantidade de erros permitidos, utilizando o comando break para bloquear o utilizador e forçar a saída do ciclo quando o limite de tentativas foi atingido.
+</details>
 
 
 ## [Aula 7](Aula_07): Repetições Aninhadas, Vetores (Arrays) e Projeto 2 "Missão Orbital"
-
+<details>
+<summary>Conceitos abordados na Aula 7 e detalhes sobre o Projeto 2 - Missão Orbital</summary>
+<br>
+  
 Nesta aula, além de aprofundar as estruturas de repetição, houve a introdução ao armazenamento estruturado de dados em memória através de vetores. A aula foi finalizada com o desenvolvimento do segundo projeto prático da disciplina. Com base nos códigos, os principais conceitos explorados foram:
 
 **Validação Rigorosa com Laços Aninhados:** Utilização combinada de estruturas for, while e do-while para garantir a integridade dos dados inseridos pelo utilizador.
@@ -86,10 +106,14 @@ Nesta aula, além de aprofundar as estruturas de repetição, houve a introduç�
 **Lógica de Contadores e Acumuladores:** Implementação de variáveis dedicadas a contar ocorrências específicas, como a quantidade de números positivos e negativos, o total de alunos aprovados e o número de municípios com temperatura inferior a 10ºC.
 
 **Projeto 2 - "Missão Orbital":** Desenvolvimento de um sistema integrado de classificação de cadetes espaciais que consolida a lógica de repetição. O projeto utiliza um laço while interno para processar e validar as três etapas de pontuação de um cadete, e engloba tudo num grande laço do-while externo, permitindo que o utilizador avalie múltiplos cadetes de forma contínua até decidir encerrar o sistema inserindo 0.
+</details>
 
 
 ## [Aula 8](Aula_08): Vetores (Arrays), Matrizes, Constantes e Desafio das operadoras
-
+<details>
+<summary>Conceitos abordados na Aula 8</summary>
+<br>
+  
 Nesta aula, o estudo de estruturas de dados estáticas foi aprofundado, englobando a manipulação de vetores unidimensionais e a introdução de matrizes (vetores bidimensionais). Os exercícios e o desafio proposto exploraram cálculos estatísticos, persistência de dados em memória durante a execução e algoritmos de busca. Os principais conceitos aplicados foram:
 
 **Diretiva #define para Constantes:** Utilização de macros no cabeçalho dos programas (como #define TAM, #define LIN e #define COL) para estabelecer tamanhos fixos de vetores e matrizes, tornando o dimensionamento centralizado e facilitando a manutenção futura do código.
@@ -99,5 +123,5 @@ Nesta aula, o estudo de estruturas de dados estáticas foi aprofundado, engloban
 **Matrizes (2D) e Laços Aninhados:** Criação de matrizes para organizar dados tabulares, como o volume de vendas cruzando "produto x dia" e o agrupamento de 4 notas para múltiplos estudantes.
 
 **Desafio da Aula 8: Sistema de Relatório Anual (Operadoras):** Este desafio elevou o nível de complexidade ao trabalhar com dados pré-definidos na memória e realizar análises estatísticas cruzadas em uma base de dados estruturada. O código atua como um sistema de inteligência de negócios para analisar o volume de vendas de chips de três operadoras ao longo de 12 meses.
-
+</details>
 
