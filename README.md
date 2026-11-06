@@ -9,7 +9,8 @@ Este espaço foi criado para armazenar, organizar e versionar os códigos, exerc
 
 O foco principal deste repositório é documentar minha evolução na construção da lógica de programação e na resolução iterativa de problemas. Aqui você encontrará implementações de lógica condicional, laços de repetição, funções de entrada/saída e manipulação de arrays, desenvolvidos passo a passo utilizando a linguagem **C**.
 
-**[Aula 2: Fundamentos de C, Entrada/Saída e Operadores Matemáticos](Aula_02)**
+## [Aula 2: Fundamentos de C, Entrada/Saída e Operadores Matemáticos](Aula_02)
+
 **Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:**
 
 **Estrutura Básica e Bibliotecas:** Introdução das bibliotecas padrão stdio.h (para entrada e saída de dados) e locale.h (junto com a função setlocale para habilitar a acentuação correta em português no terminal).
