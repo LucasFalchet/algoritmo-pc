@@ -10,6 +10,8 @@ Este espaço foi criado para armazenar, organizar e versionar os códigos, exerc
 O foco principal deste repositório é documentar minha evolução na construção da lógica de programação e na resolução iterativa de problemas. Aqui você encontrará implementações de lógica condicional, laços de repetição, funções de entrada/saída e manipulação de arrays, desenvolvidos passo a passo utilizando a linguagem **C**.
 
 ## [Aula 2](Aula_02): Fundamentos de C, Entrada/Saída e Operadores Matemáticos
+<details>
+<summary>Conteúdos apresentados nesta aula</summary>
 
 Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:
 
@@ -22,7 +24,7 @@ Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a co
 **Expressões e Operações Matemáticas:** Resolução de problemas práticos através de fórmulas, como cálculo de área e perímetro geométrico (exercicio01_raio.c e exercicio02_jardim.c), estimativas de tempo e volume (exercicio03_semana.c e exercicio04_agua.c) e média aritmética (exercicio05_media.c).
 
 **Conversão de Tipos (Type Casting):** Uso da conversão explícita de tipos, como (float), para garantir a precisão decimal correta durante divisões em cálculos matemáticos.
-
+</details>
 
 ## [Aula 3](Aula_03): Expressões Matemáticas Complexas e Biblioteca
 
@@ -48,7 +50,7 @@ Esta aula focou-se na introdução e aplicação da lógica condicional na lingu
 **Manipulação de Caracteres (char):** Leitura de variáveis do tipo caractere para tomada de decisão. Inclusão da biblioteca <ctype.h> e utilização da função toupper() para converter a entrada do utilizador automaticamente para maiúscula
 
 
-## [Aula 5](Aula_05): Projeto Prático 1 - Sistema de Gestão "Arena Tech"
+## [Aula 5](Aula_05): Projeto 1 - Sistema de Gestão "Arena Tech"
 
 Nesta aula, o foco foi a consolidação dos conhecimentos através de um projeto prático que unifica os conceitos de variáveis, cálculos matemáticos e estruturas condicionais. O código desenvolvido simula o planejamento logístico, financeiro e de infraestrutura para um evento de e-sports chamado "Arena Tech". Os principais conceitos aplicados foram:
 
@@ -72,4 +74,29 @@ Esta aula marcou a introdução aos laços de repetição (ciclos), essenciais p
 **Ciclos Infinitos e Interrupção (break):** Criação de um sistema de autenticação (login) apoiado num ciclo infinito while(1). A estrutura recorreu a um contador decrescente (tentativas--) para gerir a quantidade de erros permitidos, utilizando o comando break para bloquear o utilizador e forçar a saída do ciclo quando o limite de tentativas foi atingido.
 
 
-## [Aula 7](Aula_07): 
+## [Aula 7](Aula_07): Repetições Aninhadas, Vetores (Arrays) e Projeto 2 "Missão Orbital"
+
+Nesta aula, além de aprofundar as estruturas de repetição, houve a introdução ao armazenamento estruturado de dados em memória através de vetores. A aula foi finalizada com o desenvolvimento do segundo projeto prático da disciplina. Com base nos códigos, os principais conceitos explorados foram:
+
+**Validação Rigorosa com Laços Aninhados:** Utilização combinada de estruturas for, while e do-while para garantir a integridade dos dados inseridos pelo utilizador.
+
+**Introdução aos Vetores (Arrays) e Strings:** Primeira utilização de arrays para guardar múltiplas informações em simultâneo na memória do programa.
+
+**Lógica de Contadores e Acumuladores:** Implementação de variáveis dedicadas a contar ocorrências específicas, como a quantidade de números positivos e negativos, o total de alunos aprovados e o número de municípios com temperatura inferior a 10ºC.
+
+**Projeto 2 - "Missão Orbital":** Desenvolvimento de um sistema integrado de classificação de cadetes espaciais que consolida a lógica de repetição. O projeto utiliza um laço while interno para processar e validar as três etapas de pontuação de um cadete, e engloba tudo num grande laço do-while externo, permitindo que o utilizador avalie múltiplos cadetes de forma contínua até decidir encerrar o sistema inserindo 0.
+
+
+## [Aula 8](Aula_08): Vetores (Arrays), Matrizes, Constantes e Desafio das operadoras
+
+Nesta aula, o estudo de estruturas de dados estáticas foi aprofundado, englobando a manipulação de vetores unidimensionais e a introdução de matrizes (vetores bidimensionais). Os exercícios e o desafio proposto exploraram cálculos estatísticos, persistência de dados em memória durante a execução e algoritmos de busca. Os principais conceitos aplicados foram:
+
+**Diretiva #define para Constantes:** Utilização de macros no cabeçalho dos programas (como #define TAM, #define LIN e #define COL) para estabelecer tamanhos fixos de vetores e matrizes, tornando o dimensionamento centralizado e facilitando a manutenção futura do código.
+
+**Armazenamento em Vetores (1D):** Uso de laços de repetição for sequenciais para ler entradas do utilizador (como salários), preencher os índices do array e resgatar essas informações armazenadas para exibi-las na tela posteriormente.
+
+**Matrizes (2D) e Laços Aninhados:** Criação de matrizes para organizar dados tabulares, como o volume de vendas cruzando "produto x dia" e o agrupamento de 4 notas para múltiplos estudantes.
+
+**Desafio da Aula 8: Sistema de Relatório Anual (Operadoras):** Este desafio elevou o nível de complexidade ao trabalhar com dados pré-definidos na memória e realizar análises estatísticas cruzadas em uma base de dados estruturada. O código atua como um sistema de inteligência de negócios para analisar o volume de vendas de chips de três operadoras ao longo de 12 meses.
+
+
