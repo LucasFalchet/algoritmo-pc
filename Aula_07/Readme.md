@@ -19,7 +19,7 @@ total vendido na semana. Utilize a estrutura de repetição que considerar mais 
 Para simplificar a entrada de dados, considere nomes de municípios sem espaços.
 
 
-Projeto 3 Missão Orbital:
+Projeto 2 Missão Orbital:
 
 - Contexto da missão:
 A Agência Orbital está selecionando equipes para uma missão de exploração. Cada cadete realizará três etapas de treinamento. O sistema deverá receber as pontuações, impedir valores inválidos, calcular o desempenho e informar a classificação final. Ao término, o operador poderá iniciar o treinamento de outro cadete ou encerrar o programa.
