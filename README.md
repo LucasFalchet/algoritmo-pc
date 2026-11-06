@@ -22,3 +22,16 @@ Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a co
 **Expressões e Operações Matemáticas:** Resolução de problemas práticos através de fórmulas, como cálculo de área e perímetro geométrico (exercicio01_raio.c e exercicio02_jardim.c), estimativas de tempo e volume (exercicio03_semana.c e exercicio04_agua.c) e média aritmética (exercicio05_media.c).
 
 **Conversão de Tipos (Type Casting):** Uso da conversão explícita de tipos, como (float), para garantir a precisão decimal correta durante divisões em cálculos matemáticos.
+
+
+## [Aula 3](Aula_03): Expressões Matemáticas Complexas e Biblioteca
+
+Nesta aula, houve um aprofundamento significativo na complexidade dos cálculos, com a introdução de novas bibliotecas e funções em C para resolver problemas práticos de geometria, física e negócios. Com base nos exercícios, os principais conceitos explorados foram:
+
+**Operações Básicas e Lógica Aplicada:** Criação de algoritmos para soma de inventário de produtos, conversão de horas para minutos, operações fundamentais de uma calculadora e estimativa de consumo de energia elétrica em KWh.
+
+**Cálculos de Médias:** Implementação de lógicas para calcular a média aritmética simples de quatro valores e a média ponderada com pesos distintos.
+
+**Introdução à Biblioteca <math.h>:** Inclusão e utilização da biblioteca matemática padrão da linguagem C para lidar com fórmulas mais avançadas.
+
+**Funções de Exponenciação e Raiz:** Utilização da função pow() para elevar valores ao quadrado, como no cálculo do IMC e em fórmulas espaciais, e da função sqrt() para extrair a raiz quadrada no cálculo da distância entre dois pontos.
