@@ -12,6 +12,7 @@ O foco principal deste repositório é documentar minha evolução na construç�
 ## [Aula 2](Aula_02): Fundamentos de C, Entrada/Saída e Operadores Matemáticos
 <details>
 <summary>Conteúdos apresentados nesta aula</summary>
+<br> 
 
 Esta aula teve como foco a introdução à sintaxe básica da linguagem C e a construção de algoritmos sequenciais para cálculos matemáticos. Com base nos exercícios, os principais conceitos explorados foram:
 
