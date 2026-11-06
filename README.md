@@ -9,6 +9,10 @@ Este espaço foi criado para armazenar, organizar e versionar os códigos, exerc
 
 O foco principal deste repositório é documentar minha evolução na construção da lógica de programação e na resolução iterativa de problemas. Aqui você encontrará implementações de lógica condicional, laços de repetição, funções de entrada/saída e manipulação de arrays, desenvolvidos passo a passo utilizando a linguagem **C**.
 
+<br>
+
+### Detalhes sobre as aulas deste semestre:
+
 ## [Aula 2](Aula_02): Fundamentos de C, Entrada/Saída e Operadores Matemáticos
 <details>
 <summary>Conceitos abordados na Aula 2</summary>
@@ -125,3 +129,32 @@ Nesta aula, o estudo de estruturas de dados estáticas foi aprofundado, engloban
 **Desafio da Aula 8: Sistema de Relatório Anual (Operadoras):** Este desafio elevou o nível de complexidade ao trabalhar com dados pré-definidos na memória e realizar análises estatísticas cruzadas em uma base de dados estruturada. O código atua como um sistema de inteligência de negócios para analisar o volume de vendas de chips de três operadoras ao longo de 12 meses.
 </details>
 
+
+## [Aula 9](Aula_09): Manipulação de Arquivos e Persistência de Dados (File I/O)
+<details>
+<summary>Conceitos abordados na Aula 9</summary>
+<br>
+  
+Nesta aula, ocorreu um avanço significativo: os programas deixaram de ser dependentes exclusivamente da memória RAM (onde os dados são perdidos ao fechar o programa) e passaram a interagir com o sistema de arquivos do computador, conseguindo salvar e ler dados de forma permanente em arquivos .txt. Com base nos exercícios propostos, os principais conceitos explorados foram:
+
+**Abertura e Fechamento de Arquivos (fopen e fclose):** Implementação de ponteiros do tipo FILE * para estabelecer a comunicação com o sistema operativo.
+
+**Modos de Escrita e Apensamento (Modo "a"):** Utilização do modo de abertura "append" ("a") para criar novos arquivos ou, se o arquivo já existir, adicionar novas informações no final do arquivo sem sobrescrever os dados anteriores.
+
+**Modo de Leitura (Modo "r"):** Utilização do modo de abertura "read" ("r") para abrir arquivos de texto existentes e extrair as suas informações para dentro do programa C.
+</details>
+
+
+## [Aula 10](Aula_10): Modularização (Funções), Ponteiros e Estruturas (struct)
+<details>
+<summary>Conceitos abordados na Aula 10</summary>
+<br>
+  
+Esta aula representou um grande salto na organização e arquitetura do código. Os programas deixaram de ser construídos num único bloco contínuo dentro do main() e passaram a ser divididos em blocos lógicos reutilizáveis, além de introduzir conceitos fundamentais de gestão de memória. Com base nos códigos desenvolvidos, os principais conceitos foram:
+
+**Criação e Chamada de Funções:** Implementação da modularização através da criação de funções próprias. Foram utilizadas funções com retorno (como float para devolver os cálculos de fretes, médias e áreas) e funções do tipo void (sem retorno), focadas apenas em executar ações como imprimir resultados no terminal.
+
+**Ponteiros e Passagem por Referência:** Introdução ao conceito de endereços de memória. Utilizando o operador & na chamada da função e o operador * (ponteiro) na sua definição, foi possível criar um algoritmo capaz de trocar os valores de duas variáveis originais, alterando-as diretamente na memória.
+
+**Estruturas de Dados (struct):** Agrupamento de diferentes tipos de variáveis num único "pacote" ou entidade lógica através do comando typedef struct.
+</details>
