@@ -1,6 +1,6 @@
 # Algoritmos e Pensamento Computacional
 ## 2º Semestre
-#### Marco Antonio Sanches Anastacio
+#### Professor Marco Antonio Sanches Anastacio
 #### Lucas Casagrande Falchet - RGM: 547735236
 
 ## Objetivo do Repositório
