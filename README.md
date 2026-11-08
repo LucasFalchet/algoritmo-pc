@@ -145,7 +145,7 @@ Nesta aula, ocorreu um avanço significativo: os programas deixaram de ser depen
 </details>
 
 
-## [Aula 10](Aula_10): Modularização (Funções), Ponteiros e Estruturas (struct)
+## [Aula 10](Aula_10): Modularização (Funções), Ponteiros, Estruturas (struct) e Desafio Monitoramento de consumo de energia de LDI
 <details>
 <summary>Conceitos abordados na Aula 10</summary>
 <br>
@@ -157,4 +157,6 @@ Esta aula representou um grande salto na organização e arquitetura do código.
 **Ponteiros e Passagem por Referência:** Introdução ao conceito de endereços de memória. Utilizando o operador & na chamada da função e o operador * (ponteiro) na sua definição, foi possível criar um algoritmo capaz de trocar os valores de duas variáveis originais, alterando-as diretamente na memória.
 
 **Estruturas de Dados (struct):** Agrupamento de diferentes tipos de variáveis num único "pacote" ou entidade lógica através do comando typedef struct.
+
+**Desafio Monitoramento de Consumo de Energia:** Projeto desenvolvido em linguagem C com o objetivo de monitorar e analisar o consumo semanal de energia elétrica de diferentes laboratórios. Aborda conceitos de manipulação de matrizes, modularização por funções, estruturas de repetição e análise de dados, permitindo gerar relatórios e identificar padrões de consumo.
 </details>
