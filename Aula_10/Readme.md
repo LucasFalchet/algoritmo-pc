@@ -27,3 +27,12 @@ media
 Implemente:
 void calcular_media(Aluno *aluno);
 A função deverá atualizar o campo media.
+
+Desafio:
+
+- Uma universidade deseja acompanhar o consumo de energia elétrica de seus laboratórios de informática. Durante uma semana, foi registrado o consumo diário, em kWh, de quatro laboratórios: Lab A, Lab B, Lab C e Lab D. Os dados serão armazenados em uma matriz, na qual:
+cada linha representa um laboratório;
+cada coluna representa um dia da semana.
+O sistema deverá analisar esses dados e produzir um relatório utilizando funções para organizar os diferentes processamentos.
+
+
